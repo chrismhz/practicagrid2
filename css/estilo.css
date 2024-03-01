@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content-principal{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+    grid-gap: 0.2em;
+}
+    .content-principal{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        text-align: center;
+        grid-template-areas:
+        "logo"
+        "menu"
+        "carr"
+        "art1"
+        "art2"
+        "art3"
+        "art4"
+        "art5"
+        "redes" 
+        "dere"
+        "subm"
+        "cont";
+        grid-gap: 0.2em;
+    }
+    .content-logo{
+        background: lime;
+        grid-area: logo;
+    }
+    .content-menu{
+        background: red;
+        grid-area: menu;
+    }
+    .content-carrucel{
+        background: blue;
+        grid-area: carr;
+    }
+    .content-art1{
+        background: green;
+        grid-area: art1;
+    }
+    .content-art2{
+        background: yellow;
+        grid-area: art2;
+    }
+    .content-art3{
+        background: purple;
+        grid-area: art3;
+    }
+    .content-art4{
+        background: orange;
+        grid-area: art4;
+    }
+    .content-art5{
+        background: gray;
+        grid-area: art5;
+    }
+    .content-redes{
+        background: cyan;
+        grid-area: redes;
+    }
+    .content-derechos{
+        background: pink;
+        grid-area: dere;
+    }
+    .content-submenu{
+        background: rgba(120, 42, 165, 0.671);
+        grid-area: subm;
+    }
+    .content-contacto{
+        background: lightseagreen;
+        grid-area: cont;
+    }
+
+
+@media screen and (min-width:768px){
+    .content-principal{
+        text-align: center;
+        grid-template-areas:
+        "logo  menu"
+        "carr  carr"
+        "art3  art3"
+        "art1  art4"
+        "art2  art5"
+        "redes  redes"
+        "dere  subm"
+        "cont  cont";
+        grid-gap: 0.2em;
+    }
+    .content-logo{
+        background: lime;
+        grid-area: logo;
+    }
+    .content-menu{
+        background: red;
+        grid-area: menu;
+    }
+    .content-carrucel{
+        background: blue;
+        grid-area: carr;
+    }
+    .content-art1{
+        background: green;
+        grid-area: art1;
+    }
+    .content-art2{
+        background: yellow;
+        grid-area: art2;
+    }
+    .content-art3{
+        background: purple;
+        grid-area: art3;
+    }
+    .content-art4{
+        background: orange;
+        grid-area: art4;
+    }
+    .content-art5{
+        background: gray;
+        grid-area: art5;
+    }
+    .content-redes{
+        background: cyan;
+        grid-area: redes;
+    }
+    .content-derechos{
+        background: pink;
+        grid-area: dere;
+    }
+    .content-submenu{
+        background: rgba(120, 42, 165, 0.671);
+        grid-area: subm;
+    }
+    .content-contacto{
+        background: lightseagreen;
+        grid-area: cont;
+    }
+}
+
+@media screen and (min-width:992px){
+    .content-principal{
+        text-align: center;
+        grid-template-areas:
+        "logo  menu  menu"
+        "carr  carr  carr"
+        "art1  art3  art4"
+        "art2  art3  art5"
+        "redes  dere  cont"
+        "redes  subm  cont";
+        grid-gap: 0.2em;
+    }
+    .content-logo{
+        background: lime;
+        grid-area: logo;
+    }
+    .content-menu{
+        background: red;
+        grid-area: menu;
+    }
+    .content-carrucel{
+        background: blue;
+        grid-area: carr;
+    }
+    .content-art1{
+        background: green;
+        grid-area: art1;
+    }
+    .content-art2{
+        background: yellow;
+        grid-area: art2;
+    }
+    .content-art3{
+        background: purple;
+        grid-area: art3;
+    }
+    .content-art4{
+        background: orange;
+        grid-area: art4;
+    }
+    .content-art5{
+        background: gray;
+        grid-area: art5;
+    }
+    .content-redes{
+        background: cyan;
+        grid-area: redes;
+    }
+    .content-derechos{
+        background: pink;
+        grid-area: dere;
+    }
+    .content-submenu{
+        background: rgba(120, 42, 165, 0.671);
+        grid-area: subm;
+    }
+    .content-contacto{
+        background: lightseagreen;
+        grid-area: cont;
+    }
+}
+
+
+/*
+.content-logo{
+    background: lime;
+    grid-area: logo;
+}
+.content-menu{
+    background: red;
+    grid-area: menu;
+}
+.content-carrucel{
+    background: blue;
+    grid-area: carr;
+}
+.content-art1{
+    background: green;
+    grid-area: art1;
+}
+.content-art2{
+    background: yellow;
+    grid-area: art2;
+}
+.content-art3{
+    background: purple;
+    grid-area: art3;
+}
+.content-art4{
+    background: orange;
+    grid-area: art4;
+}
+.content-art5{
+    background: gray;
+    grid-area: art5;
+}
+.content-redes{
+    background: cyan;
+    grid-area: redes;
+}
+.content-derechos{
+    background: pink;
+    grid-area: dere;
+}
+.content-submenu{
+    background: rgba(120, 42, 165, 0.671);
+    grid-area: subm;
+}
+.content-contacto{
+    background: lightseagreen;
+    grid-area: cont;
+}*/
+
+
+
+
